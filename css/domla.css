@@ -129,19 +129,12 @@ body{
       background-clip: border-box;
     }
 }
-  /* main */
-  .main_container{
-    
-  }
   .info_container{
     display: flex;
     justify-content: center;
     max-width: 1150px;
     margin: 10px auto;
     gap: 2rem;
-  }
-  .owl_container{
-  
   }
   .owl_text{
     border-radius: 30px;
@@ -195,42 +188,15 @@ body{
     align-items: center;
     gap: 1rem;
   }
-  .child_icon{
-  
-  }
-  .child_text{
-  
-  }
-  
   .teenager{
   display: flex;
   align-items: center;
   gap: 1rem;
   }
-  
-  .teenager_icon{
-  
-  }
-  
-  
-  .teenager_text{
-  
-  }
-  
-  
   .adult{
   display: flex;
   align-items: center;
   gap: 1rem;
-  }
-  
-  
-  .adult_icon{
-  
-  }
-  
-  .adult_text{
-    
   }
   .lists_of_courses{
     display: flex;
@@ -333,16 +299,6 @@ body{
     font-size: 20px;
     -webkit-text-fill-color: black;
   }
-  
-  
-  
-  
-/* cards */
-
-
-
-
-  
 .caards{
   display: flex;
   justify-content: center;
@@ -498,11 +454,6 @@ body{
 .card1_2_text h4{
   font-size: x-large;
 }
-
-
-/* comments */
-
-
 .comments{
   background-color: rgba(0, 9, 60, 1);
   display: flex;
@@ -569,8 +520,6 @@ body{
   display: flex;
   gap: 0.5rem;
 }
-
-/* Entrance */
 .entrance{
   display: flex;
   justify-content: start;
@@ -603,8 +552,6 @@ body{
 .ent_card img{
   height: 60px;
 }
-/* FOOTER */
-
 .footer_container{
   background-color: rgba(0, 9, 60, 1);
   display: flex;
