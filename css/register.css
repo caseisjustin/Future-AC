@@ -116,7 +116,6 @@ option{
     background-clip: border-box;
     }
 }
-/* Main */
 .register_cont{
     padding: 50px;
     display: flex;
@@ -206,7 +205,6 @@ option{
     border-radius: 5px;
     color: white;
 }
-/* FOOTER */
 .footer_container{
     background-color: rgba(0, 9, 60, 1);
     display: flex;
