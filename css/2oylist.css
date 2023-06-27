@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+.container{
+    background-color: darkblue;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+li{
+    display: flex;
+    gap: 0.5rem;
+}
+.logo_cont{
+    display: flex;  
+    width: 100px;
+    height: 60px;
+}
+.logo_cont svg{
+    width: 100%;
+    height: 100%;
+}
+.burger_menu{
+    display: none;
+}
+.cont_li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.register_container{
+    display: flex;
+    align-items: center;
+}
+.regist_list{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 1rem;
+
+}
+.select_op{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.select_op:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+option{
+    background-color: yellow;
+}
+@media(max-width: 1024px){
+
+    .logo_cont{
+    display: flex;
+    margin:0 auto;  
+    width: 70px;
+    height: 60px;
+    }
+    .banner_cont{
+        flex-direction: column;
+        display: flex;
+    }
+    .right_banner{
+        height: 50vh;
+    }
+    .left_banner{
+        height: 50vh;
+        width: 100%;
+    }
+    .logo_cont img{
+    width: 100%;
+    height: 100%;
+    }
+}
+@media(max-width: 768px){
+    .logo_cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo_cont img{
+    width: 50px;
+    height: 50px;
+    }
+    .cont_li{
+    display: none;
+    }
+    .regist_list{
+    display: none;
+    }
+    .burger_menu{
+    display: flex;
+    background-clip: border-box;
+    }
+}
+/* MAIN */
+.main_container{
+    display: flex;
+    justify-content: center;
+}
+.main_cont{
+    display: flex;
+    max-width: 1150px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.main_title{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.major_cont{
+    display: flex;
+    gap: 1rem;
+}
+.major_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 280px;
+}
+.search_rad{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.info_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1150px;
+    gap: 1rem;
+}
+.courses_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.choose{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: solid 2px yellow;
+}
+.tuube{
+    display: flex;
+    width: 780px;
+}
+.toBe{
+    display: flex; 
+    gap: 3rem;
+    justify-content: flex-start;
+}
+.child{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.child_icon{
+
+}
+.child_text{
+
+}
+
+.teenager{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.teenager_icon{
+
+}
+
+
+.teenager_text{
+
+}
+
+
+.adult{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.adult_icon{
+
+}
+
+.adult_text{
+
+}
+.lists_of_courses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+}
+.lists_of_courses button{
+    background-color: rgba(255, 255, 255, 1);
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;                         
+}
+.lists_of_courses button:hover{
+    cursor: pointer;
+    box-shadow: -19px 0px 40px #ffcb8f, 19px 10px 40px #9ce0ff;
+}
+.bottonback::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, rgb(255, 206, 145), rgb(147, 223, 255));
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0 ;
+    filter: blur(3px);
+    z-index: -1;
+}
+/* CAARDS */
+.cards_cont{
+    display: flex;
+}
+.cards_content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    height: 1300px;
+}
+.card{
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+    background-color: #B8EFCF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+    position: relative;
+}
+.card::before{
+    content: '';
+    position: absolute;
+    background: linear-gradient(to right, rgb(255, 206, 145), rgb(147, 223, 255));
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0 ;
+    filter: blur(5px);
+    z-index: -1;
+}
+.card_im{
+    display: flex;
+    width: 70%;
+    gap: 1rem;
+}
+.card:hover{
+
+}
+
+/* FOOTER */
+.footer_container{
+    background-color: rgba(0, 9, 60, 1);
+    display: flex;
+    justify-content: center;
+}
+.footer_cont{
+    display: flex;
+    max-width: 1180px;
+    gap: 2rem;
+    padding: 70px;
+}
+.footer_main{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+}
+.foot_t{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-weight: 100;
+}
+.foot_t a{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.A_class{
+    font-size: 22px;
+}
+.foot_icons{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.foot_icons a{
+    color: #BDBDBD;
+    font-weight: 400;
+}
+.footer_subject{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 2rem;
+}
+.foot_sub{
+    font-size: 20px;
+    font-weight: 100;
+}
+.foot_text ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.foot_text a{
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+}
+.ulasik{
+    width: 230px;
+}
