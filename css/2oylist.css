@@ -115,7 +115,6 @@ option{
     background-clip: border-box;
     }
 }
-/* MAIN */
 .main_container{
     display: flex;
     justify-content: center;
@@ -185,42 +184,15 @@ option{
     align-items: center;
     gap: 1rem;
 }
-.child_icon{
-
-}
-.child_text{
-
-}
-
 .teenager{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-
-.teenager_icon{
-
-}
-
-
-.teenager_text{
-
-}
-
-
 .adult{
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-
-
-.adult_icon{
-
-}
-
-.adult_text{
-
 }
 .lists_of_courses{
     display: flex;
@@ -254,7 +226,6 @@ option{
     filter: blur(3px);
     z-index: -1;
 }
-/* CAARDS */
 .cards_cont{
     display: flex;
 }
@@ -292,11 +263,6 @@ option{
     width: 70%;
     gap: 1rem;
 }
-.card:hover{
-
-}
-
-/* FOOTER */
 .footer_container{
     background-color: rgba(0, 9, 60, 1);
     display: flex;
